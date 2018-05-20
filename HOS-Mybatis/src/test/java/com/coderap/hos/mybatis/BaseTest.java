@@ -15,7 +15,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
  */
 @RunWith(SpringJUnit4ClassRunner.class)
 @Import(HOSDataSourceConfig.class)
-@PropertySource("classpath:applocation.properties")
+@PropertySource("classpath:application.properties")
 @ComponentScan("com.coderap.hos.*")
 @MapperScan("com.coderap.hos.*")
 public class BaseTest {
