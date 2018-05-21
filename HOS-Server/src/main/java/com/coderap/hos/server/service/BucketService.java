@@ -1,4 +1,4 @@
-package com.coderap.hos.server;
+package com.coderap.hos.server.service;
 
 import com.coderap.hos.common.BucketModel;
 import com.coderap.hos.core.usermanager.model.UserInfo;

@@ -1,10 +1,10 @@
-package com.coderap.hos.server.impl;
+package com.coderap.hos.server.service.impl;
 
 import com.coderap.hos.common.BucketModel;
 import com.coderap.hos.core.authmanager.model.ServiceAuth;
 import com.coderap.hos.core.authmanager.service.AuthService;
 import com.coderap.hos.core.usermanager.model.UserInfo;
-import com.coderap.hos.server.BucketService;
+import com.coderap.hos.server.service.BucketService;
 import com.coderap.hos.server.dao.BucketModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;

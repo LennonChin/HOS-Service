@@ -41,7 +41,7 @@ public class HOSConfiguration {
 
     private HOSConfiguration() {}
 
-    private static HOSConfiguration getConfiguration() {
+    public static HOSConfiguration getConfiguration() {
         return configuration;
     }
 

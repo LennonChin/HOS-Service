@@ -4,6 +4,7 @@ import com.coderap.hos.common.BucketModel;
 import com.coderap.hos.core.usermanager.model.UserInfo;
 import com.coderap.hos.core.usermanager.service.UserService;
 import com.coderap.hos.mybatis.BaseTest;
+import com.coderap.hos.server.service.BucketService;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
