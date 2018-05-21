@@ -20,7 +20,7 @@ import java.util.List;
  * @author: Lennon Chin
  * @create: 2018/05/21 20:48:21
  */
-@Service
+@Service("authServiceImpl")
 @Transactional
 public class AuthServiceImpl implements AuthService {
 
