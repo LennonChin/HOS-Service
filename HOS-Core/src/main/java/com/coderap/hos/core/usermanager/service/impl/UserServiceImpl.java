@@ -1,13 +1,18 @@
-package com.coderap.hos.core.service.impl;
+package com.coderap.hos.core.usermanager.service.impl;
 
-import com.coderap.hos.core.service.UserService;
+import com.coderap.hos.core.authmanager.model.TokenInfo;
+import com.coderap.hos.core.authmanager.service.AuthService;
 import com.coderap.hos.core.usermanager.CoreUtil;
 import com.coderap.hos.core.usermanager.dao.UserInfoMapper;
 import com.coderap.hos.core.usermanager.model.UserInfo;
+import com.coderap.hos.core.usermanager.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.StringUtils;
+
+import java.util.Date;
 
 /**
  * @program: HOS-Service
@@ -19,12 +24,28 @@ import org.springframework.util.StringUtils;
 @Service
 public class UserServiceImpl implements UserService {
 
+    // 设置token的过期时间是一百年以后
+    private final long LONG_REFRESH_TIME = 4670409600000L;
+
     @Autowired
     private UserInfoMapper userInfoMapper;
+
+    @Autowired
+    @Qualifier("authServiceImpl")
+    private AuthService authService;
 
     @Override
     public boolean addUser(UserInfo userInfo) {
         userInfoMapper.addUser(userInfo);
+        // 给用户设置token
+        TokenInfo tokenInfo = new TokenInfo();
+        tokenInfo.setToken(userInfo.getUserId());
+        tokenInfo.setActive(true);
+        tokenInfo.setExpireTime(7);
+        tokenInfo.setRefreshTime(new Date(LONG_REFRESH_TIME));
+        tokenInfo.setCreator(CoreUtil.SYSTEM_USER);
+        tokenInfo.setCreateTime(new Date());
+        authService.addToken(tokenInfo);
         return true;
     }
 
@@ -38,6 +59,9 @@ public class UserServiceImpl implements UserService {
     @Override
     public boolean deleteUser(String userId) {
         userInfoMapper.deleteUser(userId);
+        // 删除用户的token
+        authService.deleteToken(userId);
+        authService.deleteAuthByToken(userId);
         return true;
     }
 

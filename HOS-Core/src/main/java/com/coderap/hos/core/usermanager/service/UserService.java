@@ -1,4 +1,4 @@
-package com.coderap.hos.core.service;
+package com.coderap.hos.core.usermanager.service;
 
 import com.coderap.hos.core.usermanager.model.UserInfo;
 

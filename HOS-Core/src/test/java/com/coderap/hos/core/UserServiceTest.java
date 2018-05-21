@@ -1,6 +1,6 @@
 package com.coderap.hos.core;
 
-import com.coderap.hos.core.service.UserService;
+import com.coderap.hos.core.usermanager.service.UserService;
 import com.coderap.hos.core.usermanager.model.SystemRole;
 import com.coderap.hos.core.usermanager.model.UserInfo;
 import com.coderap.hos.mybatis.BaseTest;
@@ -22,7 +22,7 @@ public class UserServiceTest extends BaseTest {
 
     @Test
     public void addUserTest() {
-        UserInfo userInfo = new UserInfo("Tom", "123456", "this is a test user", SystemRole.ADMIN);
+        UserInfo userInfo = new UserInfo("Jack", "123456", "this is a test user", SystemRole.ADMIN);
         userService.addUser(userInfo);
     }
 
