@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="HOS-Common" />
+        <module name="HOS-Core" />
+        <module name="HOS-Mybatis" />
+        <module name="HOS-SDK" />
+        <module name="HOS-Server" />
+        <module name="HOS-Web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="HOS-Common" target="1.8" />
+      <module name="HOS-Core" target="1.8" />
+      <module name="HOS-Mybatis" target="1.8" />
+      <module name="HOS-SDK" target="1.8" />
+      <module name="HOS-Server" target="1.8" />
+      <module name="HOS-Service" target="1.8" />
+      <module name="HOS-Web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
