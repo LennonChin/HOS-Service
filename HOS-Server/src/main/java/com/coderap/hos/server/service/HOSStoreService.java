@@ -22,6 +22,8 @@ public interface HOSStoreService {
     public void put(String bucket, String key, ByteBuffer content, long length, String mediaType, Map<String, String> properties) throws Exception;
     public HOSObjectSummary getSummary(String bucket, String key) throws Exception;
     public List<HOSObjectSummary> getSummaries(String bucket, String key, String startKey, String endKey) throws Exception;
+    public List<HOSObjectSummary> list(String bucket, String startKey, String endKey)
+            throws Exception;
     public ObjectListResult listDir(String bucket, String dir, String startKey, int maxCount) throws Exception;
     public ObjectListResult listDirByPrefix(String bucket, String dir, String startKey, String prefix, int maxCount) throws Exception;
     public HOSObject getObject(String bucket, String key) throws Exception;

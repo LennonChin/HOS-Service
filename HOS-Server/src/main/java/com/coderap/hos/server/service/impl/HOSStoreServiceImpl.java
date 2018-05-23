@@ -23,6 +23,7 @@ import org.apache.hadoop.hbase.client.*;
 import org.apache.hadoop.hbase.filter.*;
 import org.apache.hadoop.hbase.io.ByteBufferInputStream;
 import org.apache.hadoop.hbase.util.Bytes;
+import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 
 import java.io.ByteArrayInputStream;
@@ -38,6 +39,7 @@ import java.util.*;
  * @author: Lennon Chin
  * @create: 2018/05/22 20:34:26
  */
+@Service("hosStoreServiceImpl")
 @Slf4j
 public class HOSStoreServiceImpl implements HOSStoreService {
 
@@ -173,6 +175,62 @@ public class HOSStoreServiceImpl implements HOSStoreService {
         }
         String name1 = startKey.substring(startKey.lastIndexOf(File.separator) + 1);
         String name2 = endKey.substring(startKey.lastIndexOf(File.separator) + 1);
+        String seqId = this.getDirSequenceId(bucket, dir1);
+        //查询dir1中大于name1的全部文件
+        List<HOSObjectSummary> keys = new ArrayList<>();
+        if (seqId != null && name1.length() > 0) {
+            byte[] max = Bytes.createMaxByteArray(100);
+            byte[] tail = Bytes.add(Bytes.toBytes(seqId), max);
+            if (dir1.equals(dir2)) {
+                tail = (seqId + "_" + name2).getBytes();
+            }
+            byte[] start = (seqId + "_" + name1).getBytes();
+            ResultScanner scanner1 = HBaseServiceImpl
+                    .getScanner(connection, HOSConst.getObjTableName(bucket), start, tail);
+            Result result = null;
+            while ((result = scanner1.next()) != null) {
+                HOSObjectSummary summary = this.resultObjectToSummary(result, bucket, dir1);
+                keys.add(summary);
+            }
+            if (scanner1 != null) {
+                scanner1.close();
+            }
+        }
+        //startkey~endkey之间的全部目录
+        ResultScanner scanner2 = HBaseServiceImpl
+                .getScanner(connection, HOSConst.getDirTableName(bucket), startKey, endKey);
+        Result result = null;
+        while ((result = scanner2.next()) != null) {
+            String seqId2 = Bytes.toString(result.getValue(HOSConst.DIR_META_COLUMN_FAMILY_BYTES,
+                    HOSConst.DIR_SEQID_QUALIFIER));
+            if (seqId2 == null) {
+                continue;
+            }
+            String dir = Bytes.toString(result.getRow());
+            keys.add(dirObjectToSummary(result, bucket, dir));
+            getDirAllFiles(bucket, dir, seqId2, keys, endKey);
+        }
+        if (scanner2 != null) {
+            scanner2.close();
+        }
+        Collections.sort(keys);
+        return keys;
+    }
+
+    @Override
+    public List<HOSObjectSummary> list(String bucket, String startKey, String endKey)
+            throws Exception {
+
+        String dir1 = startKey.substring(0, startKey.lastIndexOf("/") + 1).trim();
+        if (dir1.length() == 0) {
+            dir1 = "/";
+        }
+        String dir2 = endKey.substring(0, startKey.lastIndexOf("/") + 1).trim();
+        if (dir2.length() == 0) {
+            dir2 = "/";
+        }
+        String name1 = startKey.substring(startKey.lastIndexOf("/") + 1);
+        String name2 = endKey.substring(startKey.lastIndexOf("/") + 1);
         String seqId = this.getDirSequenceId(bucket, dir1);
         //查询dir1中大于name1的全部文件
         List<HOSObjectSummary> keys = new ArrayList<>();

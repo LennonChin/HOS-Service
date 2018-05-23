@@ -21,7 +21,7 @@ import java.util.Date;
  * @create: 2018/05/20 23:35:45
  */
 @Transactional
-@Service
+@Service("userServiceImpl")
 public class UserServiceImpl implements UserService {
 
     // 设置token的过期时间是一百年以后

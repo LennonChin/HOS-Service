@@ -21,13 +21,13 @@
                     <artifactId>spring-boot-starter-logging</artifactId>
                 </exclusion>
             </exclusions>
-            <version>1.5.3.RELEASE</version>
+            <version>1.4.2.RELEASE</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
-            <version>1.5.3.RELEASE</version>
+            <version>1.4.2.RELEASE</version>
         </dependency>
         <dependency>
             <groupId>com.zaxxer</groupId>
