@@ -1,35 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="48f764b8-aa75-4b30-8f6d-9a1cd16d704f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_2_6_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_3_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_3_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_3_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_5_3_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_1_5_3_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_1_5_3_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_8_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_8_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_8_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_8_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_8_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_8_RELEASE.xml" afterPath="" />
+    <list default="true" id="48f764b8-aa75-4b30-8f6d-9a1cd16d704f" name="Default" comment="1">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HOS-SDK/src/main/java/com/coderap/hos/sdk/HOSClientFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HOS-SDK/src/main/java/com/coderap/hos/sdk/MimeUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HOS-SDK/src/main/java/com/coderap/hos/sdk/service/HOSClientService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HOS-SDK/src/main/java/com/coderap/hos/sdk/service/impl/HOSClientServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HOS-SDK/src/test/java/com/coderap/hos/sdk/HOSSdkTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HOS-Common/HOS-Common.iml" afterPath="$PROJECT_DIR$/HOS-Common/HOS-Common.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HOS-Core/HOS-Core.iml" afterPath="$PROJECT_DIR$/HOS-Core/HOS-Core.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HOS-Core/pom.xml" afterPath="$PROJECT_DIR$/HOS-Core/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HOS-Core/src/main/java/com/coderap/hos/core/usermanager/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/HOS-Core/src/main/java/com/coderap/hos/core/usermanager/service/impl/UserServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HOS-Mybatis/HOS-Mybatis.iml" afterPath="$PROJECT_DIR$/HOS-Mybatis/HOS-Mybatis.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HOS-Mybatis/pom.xml" afterPath="$PROJECT_DIR$/HOS-Mybatis/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HOS-Server/HOS-Server.iml" afterPath="$PROJECT_DIR$/HOS-Server/HOS-Server.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HOS-Server/pom.xml" afterPath="$PROJECT_DIR$/HOS-Server/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HOS-Server/src/main/java/com/coderap/hos/server/service/HOSStoreService.java" afterPath="$PROJECT_DIR$/HOS-Server/src/main/java/com/coderap/hos/server/service/HOSStoreService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HOS-Server/src/main/java/com/coderap/hos/server/service/impl/HOSStoreServiceImpl.java" afterPath="$PROJECT_DIR$/HOS-Server/src/main/java/com/coderap/hos/server/service/impl/HOSStoreServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HOS-Web/HOS-Web.iml" afterPath="$PROJECT_DIR$/HOS-Web/HOS-Web.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HOS-Web/pom.xml" afterPath="$PROJECT_DIR$/HOS-Web/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HOS-SDK/HOS-SDK.iml" afterPath="$PROJECT_DIR$/HOS-SDK/HOS-SDK.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HOS-SDK/pom.xml" afterPath="$PROJECT_DIR$/HOS-SDK/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -59,34 +39,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="ManagerController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HOS-Web/src/main/java/com/coderap/hos/web/rest/ManagerController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="10" column="62" lean-forward="false" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HOS-Web/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="HOSServerApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HOS-Web/src/main/java/com/coderap/hos/web/HOSServerApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
+            <state relative-caret-position="0">
               <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="26" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#986#1018#0" expanded="true" />
                 <element signature="e#1461#1462#0" expanded="true" />
                 <element signature="e#1524#1525#0" expanded="true" />
               </folding>
@@ -97,8 +56,8 @@
       <file leaf-file-name="HOSServiceBeanConfiguration.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HOS-Web/src/main/java/com/coderap/hos/web/HOSServiceBeanConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+            <state relative-caret-position="546">
+              <caret line="46" column="5" lean-forward="false" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -114,52 +73,107 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BucketModelMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HOS-Server/src/main/java/com/coderap/hos/server/dao/BucketModelMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BucketServiceTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HOS-Server/src/test/java/com/coderap/hos/server/BucketServiceTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HOS-Core/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1260">
-              <caret line="45" column="21" lean-forward="false" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HOS-Mybatis/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="728">
-              <caret line="26" column="55" lean-forward="false" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HOS-Web/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="28">
-              <caret line="3" column="108" lean-forward="true" selection-start-line="3" selection-start-column="108" selection-end-line="3" selection-end-column="108" />
+              <caret line="3" column="108" lean-forward="false" selection-start-line="3" selection-start-column="108" selection-end-line="3" selection-end-column="108" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HOS-SDK/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="490">
+              <caret line="21" column="30" lean-forward="false" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HOSClientService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HOS-SDK/src/main/java/com/coderap/hos/sdk/service/HOSClientService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-98">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HOSClientServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HOS-SDK/src/main/java/com/coderap/hos/sdk/service/impl/HOSClientServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="392">
+              <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+              <folding>
+                <element signature="docComment;class#HOSClientServiceImpl#0" expanded="false" />
+                <element signature="method#HOSClientServiceImpl#0;class#HOSClientServiceImpl#0" expanded="false" />
+                <element signature="class#1693:2815" expanded="false" />
+                <element signature="method#intercept#0;class#1693:2815" expanded="false" />
+                <element signature="method#createBucket#0;class#HOSClientServiceImpl#0" expanded="false" />
+                <element signature="method#createBucket#1;class#HOSClientServiceImpl#0" expanded="false" />
+                <element signature="method#deleteBucket#0;class#HOSClientServiceImpl#0" expanded="false" />
+                <element signature="method#listBucket#0;class#HOSClientServiceImpl#0" expanded="false" />
+                <element signature="method#putObject#0;class#HOSClientServiceImpl#0" expanded="false" />
+                <element signature="method#putObject#1;class#HOSClientServiceImpl#0" expanded="false" />
+                <element signature="method#putObject#2;class#HOSClientServiceImpl#0" expanded="false" />
+                <element signature="method#putObject#3;class#HOSClientServiceImpl#0" expanded="false" />
+                <element signature="method#putObject#4;class#HOSClientServiceImpl#0" expanded="false" />
+                <element signature="method#putObject#5;class#HOSClientServiceImpl#0" expanded="false" />
+                <element signature="method#putObject#6;class#HOSClientServiceImpl#0" expanded="false" />
+                <element signature="method#deleteObject#0;class#HOSClientServiceImpl#0" expanded="false" />
+                <element signature="method#getObjectSummary#0;class#HOSClientServiceImpl#0" expanded="false" />
+                <element signature="method#listObject#0;class#HOSClientServiceImpl#0" expanded="false" />
+                <element signature="method#listObject#1;class#HOSClientServiceImpl#0" expanded="false" />
+                <element signature="method#listObjectByPrefix#0;class#HOSClientServiceImpl#0" expanded="false" />
+                <element signature="method#listObjectByDir#0;class#HOSClientServiceImpl#0" expanded="false" />
+                <element signature="method#getObject#0;class#HOSClientServiceImpl#0" expanded="false" />
+                <element signature="method#getBucketInfo#0;class#HOSClientServiceImpl#0" expanded="false" />
+                <element signature="method#buildHeaders#0;class#HOSClientServiceImpl#0" expanded="false" />
+                <element signature="class#18116:18336" expanded="false" />
+                <element signature="method#buildMetaData#0;class#HOSClientServiceImpl#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HOSSdkTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HOS-SDK/src/test/java/com/coderap/hos/sdk/HOSSdkTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="12" column="47" lean-forward="false" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MimeUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HOS-SDK/src/main/java/com/coderap/hos/sdk/MimeUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HOSClientFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HOS-SDK/src/main/java/com/coderap/hos/sdk/HOSClientFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="546">
+              <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -209,14 +223,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/HOS-Server/src/main/java/com/coderap/hos/server/BucketServiceImpl.java" />
-        <option value="$PROJECT_DIR$/HOS-Core/src/main/java/com/coderap/hos/core/authmanager/service/impl/AuthServiceImpl.java" />
-        <option value="$PROJECT_DIR$/HOS-Server/src/main/java/com/coderap/hos/server/impl/BucketServiceImpl.java" />
-        <option value="$PROJECT_DIR$/HOS-Server/src/main/java/com/coderap/hos/server/BucketService.java" />
-        <option value="$PROJECT_DIR$/HOS-Server/src/test/java/com/coderap/hos/server/BucketServiceTest.java" />
-        <option value="$PROJECT_DIR$/HOS-Server/src/main/java/com/coderap/hos/server/HOSServerException.java" />
-        <option value="$PROJECT_DIR$/HOS-Server/src/main/java/com/coderap/hos/server/HOSUtil.java" />
-        <option value="$PROJECT_DIR$/HOS-Server/src/main/java/com/coderap/hos/server/HDFSService.java" />
         <option value="$PROJECT_DIR$/HOS-Server/src/main/java/com/coderap/hos/server/impl/HDFSServiceImpl.java" />
         <option value="$PROJECT_DIR$/HOS-Server/src/main/java/com/coderap/hos/server/service/BucketService.java" />
         <option value="$PROJECT_DIR$/HOS-Core/src/main/java/com/coderap/hos/core/HOSConfiguration.java" />
@@ -260,6 +266,14 @@
         <option value="$PROJECT_DIR$/HOS-Web/pom.xml" />
         <option value="$PROJECT_DIR$/HOS-Web/src/main/java/com/coderap/hos/web/HOSServerApp.java" />
         <option value="$PROJECT_DIR$/HOS-Web/src/main/java/com/coderap/hos/web/HOSServiceBeanConfiguration.java" />
+        <option value="$PROJECT_DIR$/HOS-SDK/pom.xml" />
+        <option value="$PROJECT_DIR$/HOS-SDK/src/main/java/com/coderap/hos/sdk/HOSClientService.java" />
+        <option value="$PROJECT_DIR$/HOS-SDK/src/main/java/com/coderap/hos/sdk/HOSClientFactory.java" />
+        <option value="$PROJECT_DIR$/HOS-SDK/src/main/java/com/coderap/hos/sdk/MimeUtil.java" />
+        <option value="$PROJECT_DIR$/HOS-SDK/src/main/java/com/coderap/hos/sdk/service/HOSClientService.java" />
+        <option value="$PROJECT_DIR$/HOS-SDK/src/main/java/com/coderap/hos/sdk/service/impl/HOSClientServiceImpl.java" />
+        <option value="$PROJECT_DIR$/HOS-SDK/src/test/java/com/coderap/hos/sdk/HosSdkTest.java" />
+        <option value="$PROJECT_DIR$/HOS-SDK/src/test/java/com/coderap/hos/sdk/HOSSdkTest.java" />
       </list>
     </option>
   </component>
@@ -283,10 +297,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-7" />
+    <option name="width" value="1934" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -297,7 +310,7 @@
       <showMembers />
       <showModules />
       <showLibraryContents />
-      <hideEmptyPackages ProjectPane="true" />
+      <hideEmptyPackages ProjectPane="false" />
       <abbreviatePackageNames />
       <autoscrollToSource />
       <autoscrollFromSource />
@@ -306,9 +319,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -319,60 +331,25 @@
             <path>
               <item name="HOS-Service" type="b2602c69:ProjectViewProjectNode" />
               <item name="HOS-Service" type="462c0819:PsiDirectoryNode" />
-              <item name="HOS-Common" type="462c0819:PsiDirectoryNode" />
+              <item name="HOS-SDK" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HOS-Service" type="b2602c69:ProjectViewProjectNode" />
               <item name="HOS-Service" type="462c0819:PsiDirectoryNode" />
-              <item name="HOS-Common" type="462c0819:PsiDirectoryNode" />
+              <item name="HOS-SDK" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HOS-Service" type="b2602c69:ProjectViewProjectNode" />
               <item name="HOS-Service" type="462c0819:PsiDirectoryNode" />
-              <item name="HOS-Common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HOS-Service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HOS-Service" type="462c0819:PsiDirectoryNode" />
-              <item name="HOS-Common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HOS-Service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HOS-Service" type="462c0819:PsiDirectoryNode" />
-              <item name="HOS-Common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HOS-Service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HOS-Service" type="462c0819:PsiDirectoryNode" />
-              <item name="HOS-Server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HOS-Service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HOS-Service" type="462c0819:PsiDirectoryNode" />
-              <item name="HOS-Server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HOS-Service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HOS-Service" type="462c0819:PsiDirectoryNode" />
-              <item name="HOS-Server" type="462c0819:PsiDirectoryNode" />
+              <item name="HOS-SDK" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HOS-Service" type="b2602c69:ProjectViewProjectNode" />
               <item name="HOS-Service" type="462c0819:PsiDirectoryNode" />
-              <item name="HOS-Server" type="462c0819:PsiDirectoryNode" />
+              <item name="HOS-SDK" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -380,94 +357,56 @@
             <path>
               <item name="HOS-Service" type="b2602c69:ProjectViewProjectNode" />
               <item name="HOS-Service" type="462c0819:PsiDirectoryNode" />
-              <item name="HOS-Server" type="462c0819:PsiDirectoryNode" />
+              <item name="HOS-SDK" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HOS-Service" type="b2602c69:ProjectViewProjectNode" />
               <item name="HOS-Service" type="462c0819:PsiDirectoryNode" />
-              <item name="HOS-Server" type="462c0819:PsiDirectoryNode" />
+              <item name="HOS-SDK" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="coderap" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HOS-Service" type="b2602c69:ProjectViewProjectNode" />
               <item name="HOS-Service" type="462c0819:PsiDirectoryNode" />
-              <item name="HOS-Server" type="462c0819:PsiDirectoryNode" />
+              <item name="HOS-SDK" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="BucketModelMapper" type="1a9f42e2:ClassTreeNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="coderap" type="462c0819:PsiDirectoryNode" />
+              <item name="hos" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HOS-Service" type="b2602c69:ProjectViewProjectNode" />
               <item name="HOS-Service" type="462c0819:PsiDirectoryNode" />
-              <item name="HOS-Server" type="462c0819:PsiDirectoryNode" />
+              <item name="HOS-SDK" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="coderap" type="462c0819:PsiDirectoryNode" />
+              <item name="hos" type="462c0819:PsiDirectoryNode" />
+              <item name="sdk" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HOS-Service" type="b2602c69:ProjectViewProjectNode" />
               <item name="HOS-Service" type="462c0819:PsiDirectoryNode" />
-              <item name="HOS-Server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HOS-Service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HOS-Service" type="462c0819:PsiDirectoryNode" />
-              <item name="HOS-Server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-              <item name="HOSStoreServiceImpl" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="HOS-Service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HOS-Service" type="462c0819:PsiDirectoryNode" />
-              <item name="HOS-Server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HOS-Service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HOS-Service" type="462c0819:PsiDirectoryNode" />
-              <item name="HOS-Server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HOS-Service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HOS-Service" type="462c0819:PsiDirectoryNode" />
-              <item name="HOS-Server" type="462c0819:PsiDirectoryNode" />
+              <item name="HOS-SDK" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HOS-Service" type="b2602c69:ProjectViewProjectNode" />
               <item name="HOS-Service" type="462c0819:PsiDirectoryNode" />
-              <item name="HOS-Server" type="462c0819:PsiDirectoryNode" />
+              <item name="HOS-SDK" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -475,91 +414,74 @@
             <path>
               <item name="HOS-Service" type="b2602c69:ProjectViewProjectNode" />
               <item name="HOS-Service" type="462c0819:PsiDirectoryNode" />
-              <item name="HOS-Server" type="462c0819:PsiDirectoryNode" />
+              <item name="HOS-SDK" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HOS-Service" type="b2602c69:ProjectViewProjectNode" />
               <item name="HOS-Service" type="462c0819:PsiDirectoryNode" />
-              <item name="HOS-Web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HOS-Service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HOS-Service" type="462c0819:PsiDirectoryNode" />
-              <item name="HOS-Web" type="462c0819:PsiDirectoryNode" />
+              <item name="HOS-SDK" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HOS-Service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HOS-Service" type="462c0819:PsiDirectoryNode" />
-              <item name="HOS-Web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HOS-Service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HOS-Service" type="462c0819:PsiDirectoryNode" />
-              <item name="HOS-Web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="coderap" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HOS-Service" type="b2602c69:ProjectViewProjectNode" />
               <item name="HOS-Service" type="462c0819:PsiDirectoryNode" />
-              <item name="HOS-Web" type="462c0819:PsiDirectoryNode" />
+              <item name="HOS-SDK" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="coderap" type="462c0819:PsiDirectoryNode" />
+              <item name="hos" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HOS-Service" type="b2602c69:ProjectViewProjectNode" />
               <item name="HOS-Service" type="462c0819:PsiDirectoryNode" />
-              <item name="HOS-Web" type="462c0819:PsiDirectoryNode" />
+              <item name="HOS-SDK" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="coderap" type="462c0819:PsiDirectoryNode" />
+              <item name="hos" type="462c0819:PsiDirectoryNode" />
+              <item name="sdk" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HOS-Service" type="b2602c69:ProjectViewProjectNode" />
               <item name="HOS-Service" type="462c0819:PsiDirectoryNode" />
-              <item name="HOS-Web" type="462c0819:PsiDirectoryNode" />
+              <item name="HOS-SDK" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="coderap" type="462c0819:PsiDirectoryNode" />
+              <item name="hos" type="462c0819:PsiDirectoryNode" />
+              <item name="sdk" type="462c0819:PsiDirectoryNode" />
+              <item name="HOSSdkTest" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="HOS-Service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HOS-Service" type="462c0819:PsiDirectoryNode" />
+              <item name="HOS-Server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HOS-Service" type="b2602c69:ProjectViewProjectNode" />
               <item name="HOS-Service" type="462c0819:PsiDirectoryNode" />
               <item name="HOS-Web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HOS-Service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HOS-Service" type="462c0819:PsiDirectoryNode" />
-              <item name="HOS-Web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -573,23 +495,12 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.coderap.hos.web.security" />
-      <recent name="com.coderap.hos.server.service.impl" />
-      <recent name="com.coderap.hos.server.impl" />
-      <recent name="com.coderap.hos.server" />
-      <recent name="com.coderap.hos.core.authmanager.service.impl" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WorkSpace\Idea\HOS-Service\HOS-Web\src\main\resources" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com" />
       <recent name="com.coderap.hos.core.usermanager" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\WorkSpace\Idea\HOS-Service\HOS-Web\src\main\resources" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.coderap.hos.server" />
-      <recent name="com.coderap.hos.core.authmanager" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\WorkSpace\Idea\HOS-Service\HOS-Server\src\main\resources" />
@@ -597,6 +508,18 @@
       <recent name="D:\WorkSpace\Idea\HOS-Service\HOS-Web\src\main\java\com\coderap\hos\web\rest" />
       <recent name="D:\WorkSpace\Idea\HOS-Service\HOS-Common\src\main\java\com\coderap\hos\common\util" />
       <recent name="D:\WorkSpace\Idea\HOS-Service\HOS-Server\src\test\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.coderap.hos.sdk" />
+      <recent name="com.coderap.hos.server" />
+      <recent name="com.coderap.hos.core.authmanager" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.coderap.hos.sdk.service.impl" />
+      <recent name="com.coderap.hos.web.security" />
+      <recent name="com.coderap.hos.server.service.impl" />
+      <recent name="com.coderap.hos.server.impl" />
+      <recent name="com.coderap.hos.server" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -853,6 +776,7 @@
       <workItem from="1526991247757" duration="13550000" />
       <workItem from="1527075872288" duration="9973000" />
       <workItem from="1527088108133" duration="1102000" />
+      <workItem from="1527166338416" duration="4466000" />
     </task>
     <servers />
   </component>
@@ -889,7 +813,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45773000" />
+    <option name="totallyTimeSpent" value="50239000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -901,39 +825,39 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <frame x="-7" y="0" width="1934" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906976" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19259657" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906976" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18255813" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906976" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19259657" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20697674" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28809014" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29269603" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5488372" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3004292" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18255813" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5488372" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -947,69 +871,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Java/jdk1.8.0_144/src.zip!/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17024">
-          <caret line="652" column="7" lean-forward="false" selection-start-line="652" selection-start-column="7" selection-end-line="652" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Java/jdk1.8.0_144/src.zip!/java/io/File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5208">
-          <caret line="221" column="31" lean-forward="false" selection-start-line="221" selection-start-column="31" selection-end-line="221" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HOS-Server/src/main/java/com/coderap/hos/server/service/impl/HDFSServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2576">
-          <caret line="105" column="31" lean-forward="false" selection-start-line="105" selection-start-column="31" selection-end-line="105" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HOS-Common/src/main/java/com/coderap/hos/common/ObjectMetaData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="24" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#448#449#0" expanded="false" />
-            <element signature="e#533#534#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HOS-Common/src/main/java/com/coderap/hos/common/HOSObjectSummary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="9" column="31" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#670#671#0" expanded="false" />
-            <element signature="e#755#756#0" expanded="false" />
-            <element signature="e#817#818#0" expanded="false" />
-            <element signature="e#875#876#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HOS-Server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="86" column="39" lean-forward="false" selection-start-line="86" selection-start-column="39" selection-end-line="86" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HOS-Server/src/main/java/com/coderap/hos/server/service/HDFSService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HOS-Server/src/main/java/com/coderap/hos/server/service/impl/HBaseServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-388">
@@ -1103,7 +964,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
           <caret line="4" column="88" lean-forward="false" selection-start-line="4" selection-start-column="88" selection-end-line="4" selection-end-column="88" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1258,7 +1118,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
           <caret line="25" column="4" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="27" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1351,30 +1210,120 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HOS-Web/src/main/java/com/coderap/hos/web/HOSServerApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
+        <state relative-caret-position="0">
           <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="26" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#986#1018#0" expanded="true" />
             <element signature="e#1461#1462#0" expanded="true" />
             <element signature="e#1524#1525#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HOS-Web/src/main/java/com/coderap/hos/web/HOSServiceBeanConfiguration.java">
+    <entry file="file://$PROJECT_DIR$/HOS-Web/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+        <state relative-caret-position="28">
+          <caret line="3" column="108" lean-forward="false" selection-start-line="3" selection-start-column="108" selection-end-line="3" selection-end-column="108" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HOS-Web/pom.xml">
+    <entry file="file://$PROJECT_DIR$/HOS-SDK/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="3" column="108" lean-forward="true" selection-start-line="3" selection-start-column="108" selection-end-line="3" selection-end-column="108" />
+        <state relative-caret-position="490">
+          <caret line="21" column="30" lean-forward="false" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HOS-SDK/src/main/java/com/coderap/hos/sdk/HOSClientFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/squareup/okhttp3/okhttp/3.9.0/okhttp-3.9.0.jar!/okhttp3/MultipartBody.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="194" column="37" lean-forward="false" selection-start-line="194" selection-start-column="37" selection-end-line="194" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HOS-SDK/src/main/java/com/coderap/hos/sdk/MimeUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HOS-Web/src/main/java/com/coderap/hos/web/HOSServiceBeanConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="46" column="5" lean-forward="false" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HOS-SDK/src/main/java/com/coderap/hos/sdk/service/HOSClientService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-98">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HOS-SDK/src/main/java/com/coderap/hos/sdk/service/impl/HOSClientServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#HOSClientServiceImpl#0" expanded="false" />
+            <element signature="method#HOSClientServiceImpl#0;class#HOSClientServiceImpl#0" expanded="false" />
+            <element signature="class#1693:2815" expanded="false" />
+            <element signature="method#intercept#0;class#1693:2815" expanded="false" />
+            <element signature="method#createBucket#0;class#HOSClientServiceImpl#0" expanded="false" />
+            <element signature="method#createBucket#1;class#HOSClientServiceImpl#0" expanded="false" />
+            <element signature="method#deleteBucket#0;class#HOSClientServiceImpl#0" expanded="false" />
+            <element signature="method#listBucket#0;class#HOSClientServiceImpl#0" expanded="false" />
+            <element signature="method#putObject#0;class#HOSClientServiceImpl#0" expanded="false" />
+            <element signature="method#putObject#1;class#HOSClientServiceImpl#0" expanded="false" />
+            <element signature="method#putObject#2;class#HOSClientServiceImpl#0" expanded="false" />
+            <element signature="method#putObject#3;class#HOSClientServiceImpl#0" expanded="false" />
+            <element signature="method#putObject#4;class#HOSClientServiceImpl#0" expanded="false" />
+            <element signature="method#putObject#5;class#HOSClientServiceImpl#0" expanded="false" />
+            <element signature="method#putObject#6;class#HOSClientServiceImpl#0" expanded="false" />
+            <element signature="method#deleteObject#0;class#HOSClientServiceImpl#0" expanded="false" />
+            <element signature="method#getObjectSummary#0;class#HOSClientServiceImpl#0" expanded="false" />
+            <element signature="method#listObject#0;class#HOSClientServiceImpl#0" expanded="false" />
+            <element signature="method#listObject#1;class#HOSClientServiceImpl#0" expanded="false" />
+            <element signature="method#listObjectByPrefix#0;class#HOSClientServiceImpl#0" expanded="false" />
+            <element signature="method#listObjectByDir#0;class#HOSClientServiceImpl#0" expanded="false" />
+            <element signature="method#getObject#0;class#HOSClientServiceImpl#0" expanded="false" />
+            <element signature="method#getBucketInfo#0;class#HOSClientServiceImpl#0" expanded="false" />
+            <element signature="method#buildHeaders#0;class#HOSClientServiceImpl#0" expanded="false" />
+            <element signature="class#18116:18336" expanded="false" />
+            <element signature="method#buildMetaData#0;class#HOSClientServiceImpl#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HOS-SDK/src/test/java/com/coderap/hos/sdk/HOSSdkTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="12" column="47" lean-forward="false" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
